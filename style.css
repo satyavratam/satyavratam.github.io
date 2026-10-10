@@ -1,0 +1,259 @@
+/* Satyavrata static site
+   Palette: ink, kumkum, vibhuti, haldi */
+:root {
+  --ink: #1f2430;
+  --muted: #5a6070;
+  --kumkum: #8f1d21;
+  --haldi: #c58a1b;
+  --vibhuti: #f6f5f2;
+  --paper: #ffffff;
+  --rule: #dcd9d2;
+  --measure: 46rem;
+  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --deva: "Noto Serif Devanagari", "Source Serif 4", serif;
+  --tamil: "Noto Serif Tamil", "Source Serif 4", serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #ece9e2;
+    --muted: #a7a89f;
+    --kumkum: #e0777a;
+    --haldi: #e0b050;
+    --vibhuti: #1b1d23;
+    --paper: #14161b;
+    --rule: #2e3139;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-padding-top: env(safe-area-inset-top, 0px);
+}
+
+body {
+  margin: 0;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 1.0625rem;
+  line-height: 1.7;
+}
+
+img { max-width: 100%; height: auto; display: block; }
+
+a { color: var(--kumkum); text-underline-offset: 0.2em; }
+a:hover { text-decoration-thickness: 2px; }
+a:focus-visible,
+.menu-button:focus-visible,
+.menu-toggle:focus-visible + .menu-button {
+  outline: 3px solid var(--haldi);
+  outline-offset: 3px;
+}
+
+.skip {
+  position: absolute;
+  left: -999px;
+  top: 0;
+  background: var(--ink);
+  color: var(--paper);
+  padding: 0.5rem 1rem;
+  z-index: 20;
+}
+.skip:focus { left: 0; }
+
+ul { list-style: none; margin: 0; padding: 0; }
+
+/* Header */
+.site-header {
+  border-bottom: 1px solid var(--rule);
+  background: var(--paper);
+  position: relative;
+  z-index: 10;
+}
+
+.bar {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 1rem 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  color: var(--ink);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.15rem;
+  line-height: 1.3;
+}
+.brand img { width: 56px; height: 56px; object-fit: contain; flex: none; }
+
+.ext {
+  font-size: 0.95rem;
+  white-space: nowrap;
+}
+
+/* Navigation */
+.menu-toggle { position: absolute; opacity: 0; pointer-events: none; }
+.menu-button { display: none; }
+
+.primary-nav {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+.primary-nav > ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 1.75rem;
+}
+
+.primary-nav li { position: relative; }
+
+.primary-nav a {
+  display: block;
+  padding: 0.7rem 0;
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+.primary-nav a:hover,
+.primary-nav li:focus-within > a { color: var(--kumkum); border-bottom-color: var(--kumkum); }
+
+.primary-nav li ul {
+  display: none;
+  position: absolute;
+  left: -0.9rem;
+  top: 100%;
+  min-width: 17rem;
+  padding: 0.4rem 0;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-top: 2px solid var(--haldi);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+.primary-nav li:hover > ul,
+.primary-nav li:focus-within > ul { display: block; }
+.primary-nav li li a { padding: 0.45rem 0.9rem; border-bottom: 0; }
+.primary-nav li li a:hover { background: var(--vibhuti); }
+
+/* Main */
+main {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 3rem 1.25rem 4rem;
+}
+
+.hero { margin: 0 0 2.5rem; }
+.hero img {
+  width: 100%;
+  max-width: 28rem;
+  margin: 0 auto;
+  border: 1px solid var(--rule);
+  padding: 0.4rem;
+  background: var(--vibhuti);
+}
+
+.invocation p { margin: 0 0 1.75rem; hyphens: auto; }
+
+.sa {
+  font-family: var(--deva);
+  font-size: 1.3rem;
+  line-height: 2;
+  color: var(--kumkum);
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+.ta {
+  font-family: var(--tamil);
+  font-size: 1.1rem;
+  line-height: 2;
+}
+
+.en {
+  color: var(--muted);
+  padding-left: 1rem;
+  border-left: 3px solid var(--haldi);
+}
+
+/* Footer */
+.site-footer {
+  background: var(--vibhuti);
+  border-top: 1px solid var(--rule);
+  padding: 2.5rem 1.25rem 2rem;
+}
+
+.site-footer nav,
+.site-footer .legal { max-width: 72rem; margin: 0 auto; }
+
+.site-footer nav > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+  gap: 1.5rem 2rem;
+}
+
+.site-footer li { font-size: 0.98rem; }
+.site-footer li ul { margin-top: 0.3rem; }
+.site-footer li li { padding: 0.15rem 0; }
+.site-footer > nav > ul > li > a,
+.site-footer .group { font-weight: 600; color: var(--ink); text-decoration: none; }
+.site-footer li li a { font-weight: 400; color: var(--kumkum); text-decoration: underline; }
+
+.legal {
+  margin-top: 2rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--rule);
+  font-size: 0.88rem;
+  color: var(--muted);
+}
+
+/* Small screens */
+@media (max-width: 52rem) {
+  .bar { flex-wrap: wrap; }
+  .brand { font-size: 1rem; }
+
+  .menu-button {
+    display: block;
+    margin: 0 1.25rem 0.75rem;
+    padding: 0.5rem 1rem;
+    width: max-content;
+    border: 1px solid var(--ink);
+    cursor: pointer;
+  }
+
+  .primary-nav { display: none; padding-bottom: 1rem; }
+  .menu-toggle:checked ~ .primary-nav { display: block; }
+
+  .primary-nav > ul { display: block; }
+  .primary-nav li ul,
+  .primary-nav li:hover > ul,
+  .primary-nav li:focus-within > ul {
+    display: block;
+    position: static;
+    min-width: 0;
+    border: 0;
+    box-shadow: none;
+    padding: 0 0 0.4rem 1rem;
+  }
+  .primary-nav li li a { padding: 0.3rem 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { scroll-behavior: auto !important; transition: none !important; animation: none !important; }
+}
+
+@media print {
+  .primary-nav, .menu-button, .skip { display: none; }
+}
