@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>About us</title>
+<link rel="canonical" href="https://satyavratam.github.io/about-us/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600&amp;family=Noto+Serif+Tamil:wght@400;600&amp;family=Source+Serif+4:wght@400;600&amp;display=swap">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<a class="skip" href="#primary">Skip to content</a>
+
+<header class="site-header">
+  <div class="bar">
+    <a class="brand" href="../">
+      <img src="../images/cropped-Satya_20240409_231839_0000.png" alt="Satyavrata" width="56" height="56">
+      <span>Satyavrata – Kanchi Kamakoti Guru Parampara Smaranam</span>
+    </a>
+    <a class="ext" href="http://Kamakoti.org">kamakoti.org</a>
+  </div>
+  <input type="checkbox" id="menu-toggle" class="menu-toggle">
+  <label for="menu-toggle" class="menu-button">Menu</label>
+  <nav class="primary-nav" aria-label="Primary">
+<ul>
+<li><a href="../charitam/">Kamakoti Peetam History</a>
+<ul>
+<li><a href="../charitam/kamakoti-acharya-vivarana/">Kamakoti Acharya Vivarana</a></li>
+</ul>
+</li>
+<li><a href="../granthas/">Granthas</a>
+<ul>
+<li><a href="https://satyavratam.github.io/granthas/shivarahasyam/">Shivarahasyam</a></li>
+<li><a href="https://satyavratam.github.io/charitam/sources-of-history/">Sources of History</a></li>
+<li><a href="https://satyavratam.github.io/granthas/markandeya-samhita/">Markandeya-samhita</a></li>
+<li><a href="https://satyavratam.github.io/granthas/anandagiriyam/">Anandagiriyam</a></li>
+<li><a href="https://satyavratam.github.io/granthas/chidvilasiyam/">Chidvilasiyam</a></li>
+<li><a href="https://satyavratam.github.io/charitra-kaavya/">Charitra Kaavya</a></li>
+</ul>
+</li>
+<li><a href="https://satyavratam.github.io/category/compositions/">Compositions</a>
+<ul>
+<li><a href="https://satyavratam.github.io/stotra/">Stotram</a></li>
+<li><a href="https://satyavratam.github.io/gitam/">Gitam</a></li>
+</ul>
+</li>
+<li><a href="https://satyavratam.github.io/articles/">Articles</a>
+<ul>
+<li><a href="https://satyavratam.github.io/articles/bhagavatpada-mahima/">Bhagavatpada mahima</a></li>
+<li><a href="https://satyavratam.github.io/articles/prachinacharyasambhavana-lekhamala/">Prachina lekhamala</a></li>
+<li><a href="https://satyavratam.github.io/articles/kalavai-periyava-1/">Kalavai Periyava – 1</a></li>
+<li><a href="https://satyavratam.github.io/articles/lingapuranantargata-shivasahasranamam/">Shiva Sahasranamam</a></li>
+</ul>
+</li>
+<li><a href="https://satyavratam.github.io/vedanta/">Vedanta</a>
+<ul>
+<li><a href="https://satyavratam.github.io/vedanta/vedanta-shanti-patha/">Vedanta-Shanti-Patha</a></li>
+<li><a href="https://satyavratam.github.io/vedanta/advaitavakyanam-ashtottarashatam/">Advaitavakyanam Ashtottarashatam</a></li>
+</ul>
+</li>
+<li><a href="../about-us/" aria-current="page">About</a>
+</li>
+</ul>
+  </nav>
+</header>
+
+<main id="primary" class="article">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../">Home</a><a href="../about-us/">About us</a></nav>
+  <h1>About us</h1>
+  <div class="tabs">
+    <input type="radio" name="lang" id="tab-english" checked>
+    <input type="radio" name="lang" id="tab-tamil">
+    <div class="tab-list">
+      <label for="tab-english">English</label>
+      <label for="tab-tamil">Tamil</label>
+    </div>
+    <div class="panels">
+      <section id="english" class="panel" lang="en">
+        <h2>RATIONALE</h2>
+        <p>The goal of the Satyavrata Project is to prepare a validated collection of texts by and about the Acharyas of the Shri Kanchi Kamakoti Peetam.</p>
+        <p>Texts by the Kamakoti Acharyas have been previously published by the establishment Kamakoti Koshasthanam. Texts about the Acharyas have been edited or authored by scholars such as Polaham Rama Shastrigal, A Kuppuswami and more recently S V Radhakrishna Shastrigal and others.</p>
+        <p>Some of these texts are no longer generally available either in print or sometimes even in digital form. Even those which are available have too many variant readings, not all of them correct. Despite the efforts of earlier scholars, due to various factors, errors have crept in.</p>
+        <p>These errors are propagated and added to when devotees, out of their enthusiasm, type or copy-paste and share texts which have not been properly validated. Hence there is a need to build upon the efforts of earlier scholars and work further towards an error-free version of these texts. Hence this project was created.</p>
+
+        <h2>ABOUT US</h2>
+        <p>The chief editor of this project is <strong>Vidvan Brahmashri Shriramana Sharma</strong>, who is formally trained in Vyakarana, Mimamsa and Vedanta, and who has a special interest in Chandas which helps in verifying verses. With the guidance of scholars even more senior to him, and the help of his friends, he works towards ensuring that these sacred texts by mahatmas of yore are edited and distributed with the attention and respect their greatness calls for.</p>
+        <p><strong>Smt Vidya Jayaraman:</strong> She has an Acharya degree in Vyakarana and is a life-long student of Vedanta and other Shastras. With Shriramana Sharma’s guidance, she assists in editing and translation.</p>
+        <p><strong>Shri Karthik Raman</strong>, helps us with his knowledge of the technologies involved in handling the text data, that are vital to this project and many related document-production activities. He is also a developer interested in Panchanga computation</p>
+        <p><strong>Brahmashri Nidhishvara Shrautigal</strong> is from Tiruvidaimarudur Shankara Matham. He has a Masters Degree in Samskrtam and is currently doing his Phd. He learns Shastram from Brahmashri Shriramana Sharma and with his guidance, he helps in preparation of documents, preparing references from old texts and text verification.</p>
+        <p>Many more devotees, many of whom have large collections of earlier publications in physical or digital form, have helped with these texts. Our sincere thanks are due to all of them.</p>
+        <p>For all of us, this is a service born from our devotion to the Kamakoti Acharya Parampara who continue to guide today’s astika society towards self-upliftment and loka kshema. We humbly dedicate our efforts to Them and seek Their blessings.</p>
+
+        <h2 id="copyright">COPYRIGHT <a class="anchor" href="#copyright" aria-label="Link to this section">#</a></h2>
+        <p>In lieu of a copyright statement, we give the following permission:</p>
+        <p class="permission">Content on this website may be used as-is for non-profit purposes with due credit given to this website.</p>
+        <p>The content is mostly based on texts of much earlier authors of a time when the current concept of copyright did not exist. The authors composed them mainly for loka kshema i.e. the benefit of society at large. We have obtained these from many sources and many people have helped us in this. We have edited them and checked for errors to the best of our abilities. We have collected them and published them here.</p>
+        <p>As such, it is the moral duty of those who use content from this website to acknowledge its source. Along with the original authors we should remember the transmitters and editors with gratitude.</p>
+        <p>Today is however the age of copy-paste-share. Many people may not give due credit to whoever did the actual work. As we are publishing all this material on this website in public for the benefit of those with sincerity, we cannot be bothered by those who do not have the moral integrity to give credit. Hence as per the maxim “na hi bhikṣukāḥ santīti sthālyo nādhiśrīyante” (One does not avoid cooking for fear of beggars, Mahabhashya of Patanjali 4/1/1) we will be content with writing this much on this topic.</p>
+      </section>
+
+      <section id="tamil" class="panel" lang="ta">
+        <h2>பின்னிலை</h2>
+        <p>ஸத்யவ்ரதம் திட்டத்தின் உத்தேசமாவது ஶ்ரீ காஞ்சீ காமகோடி பீடத்தின் ஆசார்யர்கள் இயற்றிய மற்றும் அவர்களைப் பற்றிய நூல்களைத் திரட்டி சரிபார்த்து சேகரித்துவைப்பதே.</p>
+        <p>காமகோடி ஆசார்யர்கள் இயற்றிய நூல்கள் முன்பு காமகோடி கோஶஸ்தானம் என்ற ஸ்தாபனத்தால் வெளியிடப்பட்டுள்ளன. ஆசார்யர்களைப் பற்றிய நூல்கள் போலகம் ராம ஶாஸ்த்ரிகள், அ குப்புஸ்வாமி, மற்றும் அண்மையில் சி வே ராதாக்ருஷ்ண ஶாஸ்த்ரிகள் போன்ற வித்வான்களால் பரிசோதிக்கப்பட்டுள்ளன/இயற்றப்பட்டுள்ளன.</p>
+        <p>இந்நூல்களுள் சில இன்று அச்சாகவோ மின்வடிவிலோ கூட பொதுவில் கிடைப்பதில்லை. கிடைப்பவற்றிலும் அதிக அளவில் பாட வேறுபாடுகள் உள்ளன. அவற்றிலும் அனைத்தும் சரியாக இருக்க மாட்டா. முந்தைய வித்வான்களின் முயற்சிகளையும் மீறி பல காரணங்களால் தவறுகள் உட்புகுந்துள்ளன.</p>
+        <p>நூல்கள் உரிய முறையில் சரிபார்க்கப்படாத நிலையில் அவற்றை பக்தர்கள் ஆர்வ மேலீட்டால் தட்டச்சிடவோ நகலிட்டு ஒட்டி பகிரவோ செய்யும்போது இந்த தவறுகள் பரப்பப்பட்டு அதிகமாகின்றன. ஆகவே முந்தைய வித்வான்களின் முயற்சிகளின் அடிப்படையில் இந்நூல்களின் மேலும் தவறற்ற வடிவத்தை உருவாக்க முயற்சிக்க வேண்டியுள்ளது.</p>
+        <p>இதற்காகவே இந்த திட்டம் வகுக்கப்பட்டது.</p>
+
+        <h2>எங்களைப் பற்றி</h2>
+        <p><strong>வித்வான் ப்ரஹ்மஸ்ரீ ஶ்ரீரமண ஶர்மா:</strong> இந்த திட்டத்தின் முதன்மை பதிப்பாசிரியர் வித்வான் ஶ்ரீரமண ஶர்மா. இவர் வ்யாகரணம், மீமாம்ஸை மற்றும் வேதாந்தங்களில் முறைப்படி பயிற்சி உள்ளவர். மேலும் இவரது சிறப்பு ஆர்வ விஷயமான சந்தஸ் ஶாஸ்த்ரம் செய்யுள்களைச் சரிபார்ப்பதில் உதவுகிறது. தம்மை விட மூத்த வித்வான்களின் வழிகாட்டுதலுடனும், நண்பர்களின் உதவியுடனும் செயல்பட்டு பண்டைய மஹான்களின் இந்த புண்ணிய நூல்கள் அவற்றுக்குரிய கவனமும் மரியாதையும் கொண்டு சரிபார்க்கப்பட்டு பரப்பப்பட வேண்டும் என்பதற்கு ஆவன செய்வதில் முனைகிறார்.</p>
+        <p><strong>ஸ்ரீமதீ வித்யா ஜயராமன்:</strong> வ்யாகரண ஆசார்யா பட்டப்படிப்பும் வேதாந்த கிரந்தங்களை கற்றுக்கொண்டும் உள்ள இவர் , ஶ்ரீ ரமண ஶர்மாவின் வழிகாட்டலுடன் ஸம்ஸ்க்ருத ஶாஸ்த்ர ஸம்ப்ரதாயங்களைக் கற்றும் இத்தளத்தில் நமது ஆசார்யர்களின் பழைய நூல்கள் பலவற்றை கோத்து மொழிபெயர்க்கவும் உதவுகிறார்.</p>
+        <p><strong>ஶ்ரீமான் கார்த்திக் ராமன்.</strong> இவர் நூல் தரவுகளைக் கையாளுவதற்கான தொழில்நுட்பங்களில் உள்ள நடைமுறை அனுபவத்தின் மூலமும் இந்த திட்டத்திற்கும் இது தொடர்பான பல கோப்பு தயாரிப்பு முயற்சிகளுக்கும் உதவுகிறார். இவர் கணினியின் மூலம் பஞ்சாங்கம் வெளியிட உதவுகிறார்</p>
+        <p><strong>ப்ரஹ்மஸ்ரீ நிதீஶ்வர ஶ்ரௌதிகள்</strong> திருவிடைமருதூர் சங்கர மடத்தைச் சேர்ந்தவர். ஸம்ஸ்க்ருதத்தில் மேற்படிப்புக்கு ஆய்வும் செய்துவரும் இவர் ஶ்ரீரமணசர்மாவிடம் சாஸ்த்ரம் பயின்று அவர் வழிகாட்டலுடன் கோப்புகள் தயாரிப்பிலும் பழைய நூல்களை கோப்பதிலும் விஷயங்களை சரிபார்ப்பதிலும் உதவுகிறார்.</p>
+        <p>பழைய வெளியீடுகளை ஸ்தூல வடிவினோ மின்வடிவிலோ சேகரித்து வைத்திருக்கும் மேலும் பல பக்தர்கள் இந்த நூல்கள் விஷயத்தில் உபகாரம் செய்துள்ளனர். அவர்களனைவருக்கும் எங்களது மனமார்ந்த நன்றிகள்.</p>
+        <p>இன்றும் ஆஸ்திக ஸமுதாயத்திற்கு ஆத்ம அபிவ்ருத்தியையும் லோக க்ஷேமத்தையும் பெற தொடர்ந்து வழிகாட்டும் காமகோடி ஆசார்ய பரம்பரையிடம் எங்களது பக்தியின் வெளிப்பாடான ஒரு தொண்டாகும் இது. இதனைப் பணிவுடன் அவர்களுக்கு அர்ப்பணித்து அவர்களது ஆஶிகளைக் கோருகிறோம்.</p>
+
+        <h2>காப்புரிமை</h2>
+        <p>காப்புரிமை அறிக்கைக்கு பதில், கீழ்க்கண்ட அனுமதியை அளிக்கிறோம்:</p>
+        <p class="permission">இந்த வலைத்தளத்தின் உள்ளடக்கத்தை லாப நோக்கமின்றி செய்யும் நற்பணிகளுக்கு இந்த வலைத்தளத்திற்கு க்ருதஜ்ஞதை தெரிவித்து உள்ளது உள்ளபடி பயன்படுத்தலாம்.</p>
+        <p>இன்றைய காப்புரிமை எனும் கருத்து இல்லாத காலத்தைச் சேர்ந்த முன்னோர்களான ஆசிரியர்கள் இயற்றிய நூல்களை ஆதாரமாகக் கொண்டதே இந்த உள்ளடக்கம். அந்த ஆசிரியர்கள் பொது ஸமுதாயத்தின் நன்மை என்ற லோக க்ஷேம உத்தேஶத்தில் தான் முக்கியமாக அவற்றை எழுதினார்கள்.</p>
+        <p>பல மூலங்களிலிருந்து இவற்றை வருவித்துள்ளோம். இதில் பலரும் உதவி செய்துள்ளார்கள். எங்களால் இயன்றவரை இவற்றை சரிபார்த்து தவறுகள் நீக்கியுள்ளோம். தொகுத்து இங்கு வெளியிட்டுள்ளோம்.</p>
+        <p>இவ்வாறிருக்க, இந்த வலைத்தளத்தின் உள்ளடகத்தைப் பயன்படுத்துபவர்கள் அதன் மூலத்துக்கு செய்நன்றி தெரிவிப்பது தார்மீக கடமையாகும். இத்தகைய நூல்களில் மூல கர்த்தாக்களுடன் அதனை பரிபாலித்துக்கொடுத்தவர்களையும் வெளியிட்டவர்களையும் க்ருதஜ்ஞதையுடன் நினைவில் கொள்ள வேண்டும்.</p>
+        <p>ஆனால் இன்று நகலிட்டு ஒட்டி பகிரும் காலம் (copy-paste-share). உண்மையில் வேலை செய்தவருக்கு உரிய க்ருதஜ்ஞதை தெரிவிக்க பலரும் மெனக்கிட்டுக்கொள்வதில்லை. தாமே உண்மையில் வேலை செய்ததாகவும் சிலர் பறைசாற்றிக்கொள்ளலாம்.</p>
+        <p>இத்தனை கோப்புகளையும் ஶ்ரத்தையுடையவர்களின் பயன்பாட்டுக்காக இந்த வலைதளத்தில் பொதுவில் நாம் வெளியிடுவதால், க்ருதஜ்ஞதை தெரிவிப்பதற்கான தார்மீக நேர்மை இல்லாதவர்களைப் பற்றி நாம் கவலைப்பட முடியாது. ஆகவே “ந ஹி பி4க்ஷுகா₁꞉ ஸந்தி₁ இதி₁ ஸ்தா2ல்யோ நாதிஶ்ரீயந்தே₁” (யாரும் பிச்சை கேட்பவர்கள் வந்துவிடப்போகிறார்களே என்று சமைக்காமல் இருக்க மாட்டார்கள், பதஞ்ஜலியின் மஹாபாஷ்யம் 4/1/1) என்ற கோட்பாடின்படி நாம் இவ்விஷயத்தில் இவ்வளவு எழுதி த்ருப்திபடுவோம்.</p>
+      </section>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <nav aria-label="Footer">
+<ul>
+<li><a href="../charitam/">Kamakoti Peetam History</a>
+<ul><li><a href="https://satyavratam.github.io/charitam/sources-of-history/">Sources of History</a></li><li><a href="../charitam/kamakoti-acharya-vivarana/">Kamakoti Acharya Vivarana</a></li></ul>
+</li>
+<li><span class="group">Granthas</span>
+<ul><li><a href="../granthas/">Guru Parampara</a></li><li><a href="https://satyavratam.github.io/charitra-kaavya/">Charitra Kavya</a></li></ul>
+</li>
+<li><span class="group">Compositions</span>
+<ul><li><a href="https://satyavratam.github.io/stotra/">Stotra</a></li><li><a href="https://satyavratam.github.io/gitam/">Gitam</a></li></ul>
+</li>
+<li><a href="https://satyavratam.github.io/articles/">Articles</a>
+</li>
+<li><a href="https://satyavratam.github.io/vedanta/">Vedanta</a>
+</li>
+<li><a href="../about-us/">About</a>
+</li>
+</ul>
+  </nav>
+  <p class="legal">© Copyright 2026 Kanchi Kamakoti Pitham, Nerur Shankara Matham Travel Monster by <a href="https://wptravelengine.com/">WP Travel Engine.</a> Powered by <a href="https://wordpress.org/">WordPress</a>.</p>
+</footer>
+</body>
+</html>
