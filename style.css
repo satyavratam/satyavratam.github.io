@@ -121,6 +121,13 @@ ul { list-style: none; margin: 0; padding: 0; }
 
 .primary-nav li { position: relative; }
 
+.primary-nav > ul > li > :not(ul):not(a) {
+  display: block;
+  padding: 0.7rem 0;
+  border-bottom: 2px solid transparent;
+  cursor: default;
+}
+
 .primary-nav a {
   display: block;
   padding: 0.7rem 0;
