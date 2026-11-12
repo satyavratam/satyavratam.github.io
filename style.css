@@ -50,7 +50,8 @@ a { color: var(--kumkum); text-underline-offset: 0.2em; }
 a:hover { text-decoration-thickness: 2px; }
 a:focus-visible,
 .menu-button:focus-visible,
-.menu-toggle:focus-visible + .menu-button {
+.menu-toggle:focus-visible + .menu-button,
+.primary-nav > ul > li > :not(ul):focus-visible {
   outline: 3px solid var(--haldi);
   outline-offset: 3px;
 }
@@ -116,28 +117,39 @@ ul { list-style: none; margin: 0; padding: 0; }
 .primary-nav > ul {
   display: flex;
   flex-wrap: wrap;
+  align-items: stretch;
   gap: 0 1.75rem;
 }
 
 .primary-nav li { position: relative; }
 
-.primary-nav > ul > li > :not(ul):not(a) {
+/* Every top-level item (link, span, label or button) gets the same box,
+   so linked and unlinked entries align identically. */
+.primary-nav > ul > li > :not(ul) {
   display: block;
+  margin: 0;
   padding: 0.7rem 0;
-  border-bottom: 2px solid transparent;
-  cursor: default;
-}
-
-.primary-nav a {
-  display: block;
-  padding: 0.7rem 0;
+  font: inherit;
+  line-height: 1.7;
   color: var(--ink);
   text-decoration: none;
+  text-align: left;
+  background: none;
+  border: 0;
   border-bottom: 2px solid transparent;
+  border-radius: 0;
+  cursor: pointer;
 }
-.primary-nav a:hover,
-.primary-nav li:focus-within > a { color: var(--kumkum); border-bottom-color: var(--kumkum); }
 
+.primary-nav > ul > li > :not(ul):not(a) { cursor: default; }
+
+.primary-nav > ul > li:hover > :not(ul),
+.primary-nav > ul > li:focus-within > :not(ul) {
+  color: var(--kumkum);
+  border-bottom-color: var(--kumkum);
+}
+
+/* Dropdowns */
 .primary-nav li ul {
   display: none;
   position: absolute;
@@ -152,8 +164,15 @@ ul { list-style: none; margin: 0; padding: 0; }
 }
 .primary-nav li:hover > ul,
 .primary-nav li:focus-within > ul { display: block; }
-.primary-nav li li a { padding: 0.45rem 0.9rem; border-bottom: 0; }
-.primary-nav li li a:hover { background: var(--vibhuti); }
+
+.primary-nav li li a {
+  display: block;
+  padding: 0.45rem 0.9rem;
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 0;
+}
+.primary-nav li li a:hover { background: var(--vibhuti); color: var(--kumkum); }
 
 /* Main */
 main {
@@ -264,3 +283,70 @@ main {
 @media print {
   .primary-nav, .menu-button, .skip { display: none; }
 }
+
+/* Article pages, breadcrumbs and language tabs */
+.article h1 { margin: 0 0 1.5rem; line-height: 1.25; }
+
+.crumbs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 0.5rem;
+  margin: 0 0 1.5rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+.crumbs a { color: var(--muted); text-decoration: none; }
+.crumbs a:hover { color: var(--kumkum); text-decoration: underline; }
+.crumbs a + a::before { content: "/"; display: inline-block; margin-right: 0.5rem; }
+
+.tabs > input { position: absolute; opacity: 0; pointer-events: none; }
+
+.tab-list {
+  display: flex;
+  gap: 0.25rem;
+  margin: 0 0 2rem;
+  border-bottom: 1px solid var(--rule);
+}
+.tab-list label {
+  margin-bottom: -1px;
+  padding: 0.5rem 1.1rem;
+  cursor: pointer;
+  color: var(--muted);
+  border-bottom: 3px solid transparent;
+}
+.tab-list label:hover { color: var(--kumkum); }
+
+#tab-english:checked ~ .tab-list label[for="tab-english"],
+#tab-tamil:checked ~ .tab-list label[for="tab-tamil"] {
+  color: var(--kumkum);
+  border-bottom-color: var(--kumkum);
+  font-weight: 600;
+}
+#tab-english:focus-visible ~ .tab-list label[for="tab-english"],
+#tab-tamil:focus-visible ~ .tab-list label[for="tab-tamil"] {
+  outline: 3px solid var(--haldi);
+  outline-offset: 3px;
+}
+
+.panel { display: none; }
+#tab-english:checked ~ .panels #english,
+#tab-tamil:checked ~ .panels #tamil { display: block; }
+
+.panel h2 {
+  margin: 2.25rem 0 0.75rem;
+  font-size: 1.05rem;
+  letter-spacing: 0.06em;
+  color: var(--kumkum);
+}
+.panel:first-child h2:first-child { margin-top: 0; }
+.panel p { margin: 0 0 1.1rem; hyphens: auto; }
+
+.panel[lang="ta"] { font-family: var(--tamil); line-height: 1.95; }
+.panel[lang="ta"] h2 { letter-spacing: 0; font-size: 1.15rem; }
+
+.permission {
+  padding-left: 1rem;
+  border-left: 3px solid var(--haldi);
+  font-weight: 600;
+}
+.anchor { margin-left: 0.35rem; color: var(--muted); font-weight: 400; text-decoration: none; }
