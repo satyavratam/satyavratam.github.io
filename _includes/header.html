@@ -1,0 +1,51 @@
+<header class="site-header">
+  <div class="bar">
+    <a class="brand" href="/">
+      <img src="/images/cropped-Satya_20240409_231839_0000.png" alt="Satyavrata" width="56" height="56">
+      <span>Satyavrata – Kanchi Kamakoti Guru Parampara Smaranam</span>
+    </a>
+    <a class="ext" href="http://Kamakoti.org">kamakoti.org</a>
+  </div>
+  <input type="checkbox" id="menu-toggle" class="menu-toggle">
+  <label for="menu-toggle" class="menu-button">Menu</label>
+  <nav class="primary-nav" aria-label="Primary">
+    <ul>
+      <li><a href="/charitam.html"{% if page.url == '/charitam.html' %} aria-current="page"{% endif %}>Kamakoti Peetam History</a>
+        <ul>
+          <li><a href="/kamakoti-acharya-vivarana.html">Kamakoti Acharya Vivarana</a></li>
+        </ul>
+      </li>
+      <li><a href="/granthas.html"{% if page.url == '/granthas.html' %} aria-current="page"{% endif %}>Granthas</a>
+        <ul>
+          <li><a href="/shivarahasyam.html">Shivarahasyam</a></li>
+          <li><a href="/sources-of-history.html">Sources of History</a></li>
+          <li><a href="/markandeya-samhita.html">Markandeya-samhita</a></li>
+          <li><a href="/anandagiriyam.html">Anandagiriyam</a></li>
+          <li><a href="/chidvilasiyam.html">Chidvilasiyam</a></li>
+          <li><a href="/charitra-kaavya.html">Charitra Kaavya</a></li>
+        </ul>
+      </li>
+      <li><span tabindex="0">Compositions</span>
+        <ul>
+          <li><a href="/stotra.html">Stotram</a></li>
+          <li><a href="/gitam.html">Gitam</a></li>
+        </ul>
+      </li>
+      <li><a href="/articles.html"{% if page.url == '/articles.html' %} aria-current="page"{% endif %}>Articles</a>
+        <ul>
+          <li><a href="/bhagavatpada-mahima.html">Bhagavatpada mahima</a></li>
+          <li><a href="/prachinacharyasambhavana-lekhamala.html">Prachina lekhamala</a></li>
+          <li><a href="/kalavai-periyava-1.html">Kalavai Periyava – 1</a></li>
+          <li><a href="/lingapuranantargata-shivasahasranamam.html">Shiva Sahasranamam</a></li>
+        </ul>
+      </li>
+      <li><a href="/vedanta.html"{% if page.url == '/vedanta.html' %} aria-current="page"{% endif %}>Vedanta</a>
+        <ul>
+          <li><a href="/vedanta-shanti-patha.html">Vedanta-Shanti-Patha</a></li>
+          <li><a href="/advaitavakyanam-ashtottarashatam.html">Advaitavakyanam Ashtottarashatam</a></li>
+        </ul>
+      </li>
+      <li><a href="/about-us.html"{% if page.url == '/about-us.html' %} aria-current="page"{% endif %}>About</a></li>
+    </ul>
+  </nav>
+</header>
